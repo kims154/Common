@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E4943A6E1A81C71B00912EB7 /* Common.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4943A6D1A81C71B00912EB7 /* Common.h */; };
-		E4943A701A81C71B00912EB7 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = E4943A6F1A81C71B00912EB7 /* Common.m */; };
 		E4943A761A81C71B00912EB7 /* libCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4943A6A1A81C71B00912EB7 /* libCommon.a */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +27,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				E4943A6E1A81C71B00912EB7 /* Common.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,8 +34,6 @@
 
 /* Begin PBXFileReference section */
 		E4943A6A1A81C71B00912EB7 /* libCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4943A6D1A81C71B00912EB7 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
-		E4943A6F1A81C71B00912EB7 /* Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
 		E4943A751A81C71B00912EB7 /* CommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4943A7B1A81C71B00912EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,8 +78,6 @@
 		E4943A6C1A81C71B00912EB7 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				E4943A6D1A81C71B00912EB7 /* Common.h */,
-				E4943A6F1A81C71B00912EB7 /* Common.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -193,7 +186,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4943A701A81C71B00912EB7 /* Common.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +348,7 @@
 				E4943A801A81C71B00912EB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4943A811A81C71B00912EB7 /* Build configuration list for PBXNativeTarget "CommonTests" */ = {
 			isa = XCConfigurationList;
@@ -364,6 +357,7 @@
 				E4943A831A81C71B00912EB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
